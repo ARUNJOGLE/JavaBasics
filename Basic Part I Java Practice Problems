@@ -1,0 +1,77 @@
+1. Data Types
+Scenario:
+You are developing a simple calculator for a school project. The calculator should perform basic arithmetic operations like addition, subtraction, multiplication, and division on two numbers. You need to ensure that the calculator can handle different types of data, such as integers and floating-point numbers.
+
+Problem Statement:
+Write a Java program that declares two variables of different data types (e.g., int and double). Perform addition, subtraction, multiplication, and division on these two numbers and print the results.
+
+2. Type Casting
+Scenario:
+You are creating a program that needs to convert user input into different formats. For example, converting a decimal number to an integer when necessary.
+
+Problem Statement:
+Write a Java program that takes a floating-point number as input and converts it to an integer using typecasting. Display both the original number and the converted integer.
+
+3. Conditionals and Switch Case (Enhanced Switch)
+Scenario:
+You are designing a program for a restaurant that takes an order and tells the user what type of food they've ordered based on a given menu code.
+
+Problem Statement:
+Write a Java program that uses an enhanced switch case to determine the type of food based on an integer input (e.g., 1 for "Pizza," 2 for "Burger," etc.). Include a default case that informs the user if they enter an invalid code.
+
+4. Loops (for, while, do while, nested loop)
+Scenario:
+You are tasked with generating a multiplication table for a given number, but the table should only display even results.
+
+Problem Statement:
+Write a Java program that uses a for loop to generate a multiplication table for any given number, but only display results where the product is an even number. Use a while loop to continue asking the user if they want to generate another table.
+
+5. Methods (Functions)
+Scenario:
+You are building a utility tool that requires the same block of code to be reused multiple times with different inputs, such as calculating the square of different numbers.
+
+Problem Statement:
+Write a Java program with a method that takes an integer as a parameter and returns its square. Call this method multiple times with different inputs and print the results.
+
+6. Method Overloading
+Scenario:
+You are developing a math library that can handle operations on both integers and doubles, such as calculating the area of a circle.
+
+Problem Statement:
+Write a Java program that includes two overloaded methods named calculateArea(). One method should take an integer (radius) and calculate the area of a circle, and the other should take a double (radius) and do the same. Test both methods by calling them with appropriate arguments.
+
+7. Scope
+Scenario:
+You are debugging a program where variables are not behaving as expected due to scope issues.
+
+Problem Statement:
+Write a Java program that demonstrates variable scope. Declare a variable inside a method and try to access it outside the method. Explain why the code doesn't work and correct it by declaring the variable in the appropriate scope.
+
+8. Shadowing in Java
+Scenario:
+You are working on a complex project where local variables are unintentionally hiding class-level variables, leading to unexpected results.
+
+Problem Statement:
+Write a Java program that demonstrates variable shadowing. Declare a class-level variable and a local variable inside a method with the same name. Show how the local variable shadows the class-level variable and print both values to illustrate the concept.
+
+9. VarArgs (Variable Length Arguments)
+Scenario:
+You are tasked with creating a utility function that can sum any number of integers provided by the user.
+
+Problem Statement:
+Write a Java program that uses a method with VarArgs to accept a variable number of integer arguments. The method should sum all the integers and return the result. Test the method by passing different numbers of arguments.
+
+10. Simple Application Using All Concepts
+Scenario:
+You need to build a simple banking application where users can perform operations like depositing and withdrawing money. The application should handle various data types, check for valid inputs, and offer flexibility with different methods.
+
+Problem Statement:
+Build a small Java application that simulates a basic banking system. The application should include the following features:
+
+Data Types & Type Casting: Handle different types of user inputs (e.g., account numbers as integers, amounts as doubles).
+Conditionals & Switch Case: Implement a menu system that allows users to choose different operations like checking balance, depositing money, or withdrawing money.
+Loops: Allow users to perform multiple transactions until they choose to exit.
+Methods & Method Overloading: Create methods for deposit, withdrawal, and checking balance. Use method overloading for deposit, allowing users to deposit either an integer or a double amount.
+Scope & Shadowing: Use class-level variables for account balance and demonstrate variable shadowing within methods.
+VarArgs: Implement a method that can calculate the total deposited amount over multiple transactions using VarArgs.
+Make sure the program is well-structured, user-friendly, and properly handles errors like insufficient balance during withdrawals.
