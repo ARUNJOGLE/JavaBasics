@@ -1,0 +1,173 @@
+Here are some Java programming tasks along with explanations:
+
+1. Adam's Number
+
+Description:
+An Adam's number is a number that remains a prime number when both the number and its reverse are squared. Specifically, a number `n` is an Adam's number if:
+- Both `n` and its reverse are prime numbers.
+- The squares of both `n` and its reverse, when reversed, still result in prime numbers.
+
+Example:
+For instance, `13` is an Adam's number:
+- The reverse of `13` is `31`.
+- Both `13` and `31` are prime numbers.
+- The square of `13` is `169`, and reversing it gives `961`.
+- The square of `31` is `961`, and reversing it gives `169`.
+
+2. Perfect Number
+
+Description:
+A perfect number is a positive integer that is equal to the sum of its proper divisors (excluding itself). For example, `28` is a perfect number because its proper divisors are `1`, `2`, `4`, `7`, and `14`, and their sum is `28`.
+
+Example:
+- `6` is a perfect number because the sum of its proper divisors `1`, `2`, and `3` equals `6`.
+
+3. Armstrong Number
+
+Description:
+An Armstrong number (or Narcissistic number) is a number that is equal to the sum of its own digits each raised to the power of the number of digits. For instance, a number `153` is an Armstrong number because:
+- It has `3` digits.
+- `1^3 + 5^3 + 3^3 = 153`.
+
+Example:
+- `9474` is an Armstrong number because `9^4 + 4^4 + 7^4 + 4^4 = 9474`.
+
+4. Fibonacci Sequence
+
+Description:
+The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones, starting from `0` and `1`. For example, the sequence starts with `0, 1, 1, 2, 3, 5, 8, 13, ...`.
+
+Example:
+- The first few terms are `0`, `1`, `1`, `2`, `3`, `5`, `8`, and so on.
+
+5. Happy Number
+
+Description:
+A happy number is a number which eventually reaches `1` when replaced by the sum of the square of its digits repeatedly. If it results in a loop of numbers that does not include `1`, it is not a happy number.
+
+Example:
+- `19` is a happy number because the sequence of sums of squares of digits is `19 → 82 → 68 → 45 → 29 → 10 → 1`.
+
+6. Palindrome Number
+
+Description:
+A palindrome number is a number that remains the same when its digits are reversed. For example, `121` is a palindrome because it reads the same forwards and backwards.
+
+Example:
+- `12321` is a palindrome because reversing it yields `12321`.
+
+7. Triangular Number
+
+Description:
+A triangular number is a number that can form an equilateral triangle. The nth triangular number is the number of dots in the triangular arrangement of `n` rows. The formula for the nth triangular number is \( T_n = \frac{n(n + 1)}{2} \).
+
+Example:
+- The 4th triangular number is `10` because \( \frac{4 \times (4 + 1)}{2} = 10 \).
+
+8. Factorial Calculation
+
+Description:
+The factorial of a non-negative integer `n` is the product of all positive integers less than or equal to `n`. It is denoted by `n!`. Factorial is used in permutations and combinations.
+
+Example:
+- The factorial of `5` (denoted `5!`) is `5 × 4 × 3 × 2 × 1 = 120`.
+
+Certainly! Here are more Java programming tasks with explanations:
+
+9. Sum of Digits
+
+Description:
+Calculate the sum of the digits of a number. This is often used in problems involving digital roots or checksums. For example, the sum of digits of `1234` is `1 + 2 + 3 + 4 = 10`.
+
+Example:
+- For `567`, the sum of digits is `5 + 6 + 7 = 18`.
+
+10. Automorphic Number
+
+Description:
+An automorphic number is a number whose square ends in the same digits as the number itself. For instance, `25` is an automorphic number because `25^2 = 625`, which ends in `25`.
+
+Example:
+- `76` is an automorphic number because `76^2 = 5776`, which ends in `76`.
+
+11. Catalan Number
+
+Description:
+Catalan numbers are a sequence of natural numbers with many applications in combinatorial mathematics. The nth Catalan number can be calculated using the formula \( C_n = \frac{1}{n + 1} \binom{2n}{n} \), where \( \binom{2n}{n} \) is a binomial coefficient.
+
+Example:
+- The 3rd Catalan number is `5`, which can be calculated using the formula.
+
+12. Magic Number
+
+Description:
+A magic number is a number that produces a fixed digit when the sum of its digits is repeatedly calculated until a single digit is obtained. This final digit is known as the "magic" digit. 
+
+Example:
+- For `123`, the sum of digits is `1 + 2 + 3 = 6`, which is a single digit. Hence, `123` is a magic number with a magic digit `6`.
+
+13. Harshad Number
+
+Description:
+A Harshad number (or Niven number) is a number that is divisible by the sum of its digits. For example, `18` is a Harshad number because `18` is divisible by the sum of its digits `1 + 8 = 9`.
+
+Example:
+- `12` is a Harshad number because `12` is divisible by `1 + 2 = 3`.
+
+14. Square Number
+
+Description:
+A square number is an integer that is the square of another integer. In other words, if `n` is a perfect square, then there exists an integer `k` such that `n = k^2`.
+
+Example:
+- `49` is a square number because it can be expressed as `7^2`.
+
+15. Count of Digits
+
+Description:
+Calculate the total number of digits in a number. This can be useful for tasks where you need to analyze the size of the number.
+
+Example:
+- For `4567`, the count of digits is `4`.
+
+16. Sum of Squares of Digits
+
+Description:
+Calculate the sum of the squares of the digits of a number. This is often used in various number theory problems and algorithms.
+
+Example:
+- For `34`, the sum of squares of digits is \( 3^2 + 4^2 = 9 + 16 = 25 \).
+
+17. Strong Number
+
+Description:
+A strong number (or factorial number) is a number where the sum of the factorials of its digits equals the number itself. For example, `145` is a strong number because `1! + 4! + 5! = 145`.
+
+Example:
+- `40585` is a strong number because `4! + 0! + 5! + 8! + 5! = 40585`.
+
+18. Triangular Palindrome Number
+
+Description:
+A triangular palindrome number is a number that is both a triangular number and a palindrome. A triangular number is one that can form an equilateral triangle, and a palindrome reads the same forwards and backwards.
+
+Example:
+- `1` is a triangular palindrome because it is the 1st triangular number and also a palindrome.
+
+19. Kaprekar Number
+
+Description:
+A Kaprekar number is a number where the square of the number is split into two parts, and the sum of these parts equals the original number. For example, `297` is a Kaprekar number because `297^2 = 88209` and `88 + 209 = 297`.
+
+Example:
+- `9` is a Kaprekar number because `9^2 = 81` and `8 + 1 = 9`.
+
+20. Palindromic Prime Number
+
+Description:
+A palindromic prime number is a number that is both a palindrome and a prime number. For example, `131` is a palindromic prime because it reads the same forwards and backwards and is a prime number.
+
+Example:
+- `151` is a palindromic prime because it is both a palindrome and a prime number.
+
+These tasks provide various ways to practice and apply Java programming concepts, especially around number theory and mathematical properties. Let me know if you need more details on any of these tasks!
